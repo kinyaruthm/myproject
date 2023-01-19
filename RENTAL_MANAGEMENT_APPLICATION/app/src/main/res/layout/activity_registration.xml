@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res-auto ">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/img"
-        >
+        android:background="@drawable/img">
 
         <TextView
             android:id="@+id/signup"
@@ -50,9 +51,7 @@
             android:gravity="center"
             android:hint="password"
             android:textColor="@color/white"
-            android:textSize="50dp"
-            />
-
+            android:textSize="50dp" />
 
 
         <EditText
@@ -80,8 +79,7 @@
             android:layout_marginBottom="300dp"
             android:hint="username"
             android:textColor="@color/white"
-            android:textSize="50dp"
-            />
+            android:textSize="50dp" />
 
         <EditText
             android:id="@+id/phoneno"
@@ -95,9 +93,7 @@
             android:inputType="phone"
             android:hint="Phone"
             android:textColor="@color/white"
-            android:textSize="50dp"
-            />
-
+            android:textSize="50dp" />
 
 
         <Button
@@ -130,4 +126,4 @@
             ></Button>
     </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
